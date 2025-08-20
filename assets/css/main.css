@@ -506,6 +506,7 @@ section,
   background-color: var(--background-color);
   /* padding: 60px 0; */
   /* overflow: clip; */
+  padding:0;
 }
 
 /*--------------------------------------------------------------
