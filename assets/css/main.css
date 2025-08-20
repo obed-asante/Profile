@@ -504,8 +504,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
-  overflow: clip;
+  /* padding: 60px 0; */
+  /* overflow: clip; */
 }
 
 /*--------------------------------------------------------------
@@ -1194,7 +1194,7 @@ section,
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .portfolio-details .portfolio-description p {
