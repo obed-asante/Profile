@@ -61,6 +61,30 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+    .hidden { display: none; }
+    /*.box {
+      padding: 20px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }*/
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #cccccc;
+    }
+    .btn-link {
+      font-weight: 400;
+      color: #444444;
+      text-decoration: none;
+    }
+        .btn-link:hover {
+      color: #444444;
+    }
+  </style>
+
   </head>
 
   <body class="portfolio-details-page">
@@ -69,7 +93,7 @@
 
       <div class="profile-img">
         <img
-          src="assets/img/my-profile-img.jpg"
+          src="assets/img/my-profile-img.png"
           alt=""
           class="img-fluid rounded-circle"
         />
@@ -89,8 +113,8 @@
         <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         <a href="#" class="github"><i class="bi bi-github"></i></a>
-        <a href="#" class="youtube-link"><i class="bi bi-youtube"></i></a>
-        <a href="#" class="tiktok-link"><i class="bi bi-tiktok"></i></a>
+        <!-- <a href="#" class="youtube-link"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="tiktok-link"><i class="bi bi-tiktok"></i></a> -->
         <a href="mailto:obed.o.asante@gmail.com" class="email-link"
           ><i class="bi bi-envelope"></i
         ></a>
@@ -116,11 +140,11 @@
               ><i class="bi bi-images navicon"></i> Portfolio</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="index.html#services"
               ><i class="bi bi-hdd-stack navicon"></i> Services</a
             >
-          </li>
+          </li> -->
           <li>
             <a href="index.html#contact"
               ><i class="bi bi-envelope navicon"></i> Contact</a
@@ -149,6 +173,7 @@
 
       <!-- Portfolio Details Section -->
       <section id="portfolio-details" class="portfolio-details section">
+        <div id="sec1" class="box">
         <div class="accordion" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
@@ -161,7 +186,7 @@
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Collapsible Group Item #1
+                  Students Loan Application System (SLAS)
                 </button>
               </h5>
             </div>
@@ -172,20 +197,63 @@
               aria-labelledby="headingOne"
               data-parent="#accordionExample"
             >
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
-              </div>
+                <div class="card-body">
+                  <p class="mt-2 text-gray-700">
+                    A web-based application that allows Ghanaian tertiary students to apply for, manage, and track their educational loans provided by the government of Ghana.
+                  </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Requirements GatheringI</li>
+                      <li>Online students loan application. Loans are applied online where student loans amounts are computed automatically based on means testing methodology. The means testing methodolgy computes students' loans based on their socio economic state</li>
+                      <li>Loan eligibility check. System checks applicants eligibility automatically using their Ghana card details connecting to the API of the National Identification Authority (NIA)</li>
+                      <li>Document management. Allows applicants to upload supporting documents such as Ghana Card, School ID, School admission letters, passport picture and any other documents to support their applications. All uploaded documents are scanned in the background against malwares</li>
+                      <li>Supports electronic signatures and finger prints. The finger prints are checked against NIAs API to validate users</li>
+                      <li>Live application tracking. Applicants are able to check the status of their applications anytime through their online portal</li>
+                      <li>It has a mobile version on Android and IOS</li>
+                      <li>Loan repayment functionality</li>
+                      <li>Personal details amendment</li>
+                      <li>Loan statements (detail & summary)</li>
+                      <li>2 factor authentication to verify phone number during account creation</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>HTML, CSS, Javascript for the UI</li>
+                      <li>DotNet Core and C# for the backend REST API</li>
+                      <li>Microsoft SQL for the database</li>
+                      <li>Flutter for the mobile app</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Created the API project structure and the application database</li>
+                      <li>Supervised the UI and mobile version</li>
+                      <li>Supervised other programmers in the project</li>
+                      <li>Participated in standups during the project process</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://application.sltf.gov.gh/" target="_blank">SLAS Portal</a></li>
+                    </ul>
+                  </div>
+
+                </div>
             </div>
           </div>
+
           <div class="card">
             <div class="card-header" id="headingTwo">
               <h5 class="mb-0">
@@ -197,7 +265,7 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Collapsible Group Item #2
+                  Students Loan Information System (SLIS)
                 </button>
               </h5>
             </div>
@@ -208,20 +276,469 @@
               data-parent="#accordionExample"
             >
               <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+                 <p class="mt-2 text-gray-700">
+                    The main system used by Students Loan Trust Fund for their operations. It is web based
+                  </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Processing & disbursement of loans for both Universities and Colleges of Education</li>
+                      <li>Monthly computation of interests on loans</li>
+                      <li>Receiving loan repayments</li>
+                      <li>Loan statements (detail & summary)</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>EXTJS using sencha for the UI</li>
+                      <li>MVC architecture and .Net C#</li>
+                      <li>Entity framework</li>
+                      <li>Microsoft SQL for the database</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>completed the repayment module</li>
+                      <li>re engineered the interest computation module to enhance its performance</li>
+                      <li>Provided support and updates</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://application.sltf.gov.gh/" target="_blank">SLIS Portal</a></li>
+                    </ul>
+                  </div> -->
               </div>
             </div>
           </div>
+
           <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Students Loan Information System API
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    A REST API build on top of the SLIS database. The main reason of this API is to share SLIS data with third party Institutions.
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>A REST API to share data with third party institutions</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>.Net Core</li>
+                      <li>Complex Stored Procedures & SQL queries</li>
+                      <li>Scaffolding</li>
+                      <li>MS SQL</li>
+                      <li>JWT for the API'S security</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Developed this API</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://application.sltf.gov.gh/" target="_blank">SLIS Portal</a></li>
+                    </ul>
+                  </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Third Party Integration API
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseFive"
+              class="collapse"
+              aria-labelledby="headingFive"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                 <p class="mt-2 text-gray-700">
+                    A REST API responsible for consuming to all third party API's shared with Students Loan Trust Fund. The APIs are the accessed through this Third Party API.
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Some APIs consumed:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>National Identification Authority (NIA) API - For getting Ghana card details</li>
+                      <li>Ghana.gov payment platform Integration - Payments through card and Mobile Money</li>
+                      <li>Pay Angel</li>
+                      <li>Social Security and National Insurance Trust (SSNIT) API</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>.Net Core with C#</li>
+                      <li>JWT for the API'S security</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Developed this API</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://application.sltf.gov.gh/" target="_blank">SLIS Portal</a></li>
+                    </ul>
+                  </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTen">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTen"
+                  aria-expanded="false"
+                  aria-controls="collapseTen"
+                >
+                  Trainee Colleges Allowance Portal
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseTen"
+              class="collapse"
+              aria-labelledby="headingTen"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    A web based applications for Colleges of Education to share their students' data with the Trust Fund
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Colleges of Education upload of their students' data</li>
+                      <li>Reports of students whose allowance have been disbursed and the number remaining</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Requirements GatheringI</li>
+                      <li>A backend REST .Net Core API</li>
+                      <li>JWT for the API'S security</li>
+                      <li>VueJS for the UI</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Developed the backend API</li>
+                      <li>Designed the SQL database</li>
+                      <li>Supervised the design of the user interface</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://allowance.sltf.gov.gh/" target="_blank">Trainee Colleges Allowance Portal</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwelve">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="collapseTwelve"
+                >
+                  Employees Portal
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseTwelve"
+              class="collapse"
+              aria-labelledby="headingTwelve"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    A web based applications for employers to help repay their employees' students loan from payroll
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Repayment of students loans by empoyers on employees' behalf</li>
+                      <li>Reports payments and balances of employees whose loans are being paid on their behalf</li>
+                      <li>Integration with PayAngel & Ghana.gov</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>A backend REST .Net Core API</li>
+                      <li>JWT for the API'S security</li>
+                      <li>VueJS for the UI</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Requirements GatheringI</li>
+                      <li>Developed the backend API</li>
+                      <li>Designed the SQL database</li>
+                      <li>Supervised the design of the user interface</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://employer.sltf.gov.gh/login" target="_blank">Employers Portal</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="card-header" id="headingEleven">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="collapseEleven"
+                >
+                  SLTF Website
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseEleven"
+              class="collapse"
+              aria-labelledby="headingEleven"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    SLTF Website
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>The main website of SLTF</li>
+                      <li>Links to most of the services provided by Students Loan</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>A backend REST .Net Core API</li>
+                      <li>JWT for the API'S security</li>
+                      <li>VueJS for the UI</li>
+                    </ul>
+                  </div> -->
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Supervised it's design and development</li>
+                      <li>Provided links to the services and worked on APIs to provide some of them when needed</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://www.sltf.gov.gh/" target="_blank">SLTF Website</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThirteen">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThirteen"
+                  aria-expanded="false"
+                  aria-controls="collapseThirteen"
+                >
+                  Microsoft Retail Management System
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThirteen"
+              class="collapse"
+              aria-labelledby="headingThirteen"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    A Retail Management System provided by Microsoft
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Company: </strong> Rhema Systems & Associates Limited
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      The base application is a retail management system by listed below are some applications and integration developed in-house on top of the main system
+                      <li>Inventory transfers</li>
+                      <li>Stock count</li>
+                      <li>Customization of the POS interface</li>
+                      <li>Activation scratch cards</li>
+                      <li>Interation with the Electronic PIN system</li>
+                      <li>Pushing of sales data into the main Accounting system, SUN</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Clients Served:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Millicom Ghana Limited, Tigo, now AirtelTigo</li>
+                      <li>Vodafone Ghana, now Telecel</li>
+                      <li>Tigo Senegal</li>
+                      <li>Tigo Chad</li>
+                      <li>Tigo Rwanda</li>
+                      <li>Tigo DRC</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>VB.NET, VB6, c#</li>
+                      <li>MSSQL</li>
+                      <li>Microsoft Web forms</li>
+                      <li>Microsoft Windows forms</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Was part of requirements gathering during most of the projects</li>
+                      <li>Perform part of the coding</li>
+                      <li>Provided first level support both onsite and remotely</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://www.sltf.gov.gh/" target="_blank">SLTF Website</a></li>
+                    </ul>
+                  </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="card">
             <div class="card-header" id="headingThree">
               <h5 class="mb-0">
                 <button
@@ -255,60 +772,201 @@
                 haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
+</div>
 
-        <!-- <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h3>Front Side</h3>
-              <p>Some content on the front.</p>
+
+        <div id="sec2" class="box">
+        <div class="accordion" id="accordionExample2">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Automatic Trading App
+                </button>
+              </h5>
             </div>
-            <div class="flip-card-back">
-              <h3>Back Side</h3>
-              <p>Details shown when flipped.</p>
+
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    A service on top of Meta trader5 to place trades automatically on windows machines - Development ongoing
+                </p>
+
+                  <!-- <div class="mt-3">
+                    <strong>Company: </strong> Students Loan Trust Fund
+                  </div> -->
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Placeing trades automatically</li>
+                      <li>Exits trades when market reverses</li>
+                      <li>Displays system logs on a windows form</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Mete Trader5</li>
+                      <li>Pythonnet</li>
+                      <li>Python</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>I'm the Owner of the project and did everything</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://www.sltf.gov.gh/" target="_blank">SLTF Website</a></li>
+                    </ul>
+                  </div> -->
+              </div>
+
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h3>Front Side</h3>
-              <p>Some content on the front.</p>
+          
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  MIS for Ministry of Environment, Science & technology, Ghana
+                </button>
+              </h5>
             </div>
-            <div class="flip-card-back">
-              <h3>Back Side</h3>
-              <p>Details shown when flipped.</p>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    An MIS system developed for Ministry of Environment, Science & technology. This project was carried out in collaboration with Rhema Systems & Assiciates Ltd.
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Generally consists of dashboards on how the agencies under MESTI are doing</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      I only served as technical advisor on this project and developed part of the user manual
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://stimis.mesti.gov.gh/" target="_blank">STI MIS</a></li>
+                    </ul>
+                  </div>
+              </div>
             </div>
           </div>
-        </div>
 
-                <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h3>Front Side</h3>
-              <p>Some content on the front.</p>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Matron 360
+                </button>
+              </h5>
             </div>
-            <div class="flip-card-back">
-              <h3>Back Side</h3>
-              <p>Details shown when flipped.</p>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p class="mt-2 text-gray-700">
+                    A bespoke system developed for Nursing & Midwifery Council of Ghana
+                </p>
+
+                  <div class="mt-3">
+                    <strong>Main Features:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>Registering new nurses admitted to Nursing Training Colleges</li>
+                      <li>Generating PINs for nursing when they pass out of school</li>
+                      <li>Recording nurses' final exam result</li>
+                      <li>Generating certificates for nureses who successfully pass their licensure exam</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Tools Used:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      <li>VB.NET</li>
+                      <li>MSSQL</li>
+                      <li>Microsoft Web forms</li>
+                      <li>Crystal reports</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-3">
+                    <strong>Roles Played:</strong>
+                    <ul class="list-disc list-inside text-gray-600">
+                      We were a team of three people who worked on this project
+                      <li>Requirements gathering</li>
+                      <li>Actual coding</li>
+                      <li>Provided first level support after initial release</li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mt-3">
+                    <strong>Links:</strong>
+                    <ul class="list-disc list-inside text-blue-600">
+                      <li><a href="https://www.sltf.gov.gh/" target="_blank">SLTF Website</a></li>
+                    </ul>
+                  </div> -->
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <h3>Front Side</h3>
-              <p>Some content on the front.</p>
-            </div>
-            <div class="flip-card-back">
-              <h3>Back Side</h3>
-              <p>Details shown when flipped.</p>
-            </div>
+
           </div>
-        </div> -->
+
       </section>
       <!-- /Portfolio Details Section -->
     </main>
@@ -352,5 +1010,23 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hash = window.location.hash.substring(1); // remove the '#'
+      const allSections = document.querySelectorAll(".box");
+
+      if (hash && hash !== "all") {
+        // Hide all, show only the targeted one
+        allSections.forEach(div => div.classList.add("hidden"));
+        const target = document.getElementById(hash);
+        if (target) target.classList.remove("hidden");
+      } else {
+        // "all" means show everything
+        allSections.forEach(div => div.classList.remove("hidden"));
+      }
+    });
+  </script>
+
   </body>
 </html>
